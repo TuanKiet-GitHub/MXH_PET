@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ConfirmSDT">
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:src="@drawable/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#F6F9FA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/importSMS"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:textColor="@color/blue"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textViewSDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="+84-"
+            android:textColor="@color/blue"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/tam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></EditText>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:maxLength="1"
+                android:textColorHint="@color/blue"
+                android:cursorVisible="true"
+                android:id="@+id/edText1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="@color/blue" />
+
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:maxLength="1"
+                android:textColorHint="@color/blue"
+                android:id="@+id/edText2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="@color/blue" />
+
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edText3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue" />
+
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edText4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue" />
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edText5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue" />
+            <TextView
+
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="-"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edText6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:backgroundTint="@color/black" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

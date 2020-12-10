@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainPage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome !"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:text = "@string/welcome"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/logo1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text = "Để sử dụng tất cả các tính năng của ứng dụng"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text = " PETCOM"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="Cần đăng kí tài khoản"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtDangNhap"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:text = "Bấm vào đây nếu bạn đã có tài khoản"
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnDangKi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        android:background="@drawable/custom_button"
+        android:text= "@string/registration"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/blue"
+        android:text = "Một lát sau"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
